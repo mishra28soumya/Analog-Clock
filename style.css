@@ -9,16 +9,16 @@
   background-size: 100%;
 }
 
-#hour,
-#minute,
-#second {
+#hour_hand,
+#minute_hand,
+#second_hand {
   position: absolute;
   background: black;
   border-radius: 10px;
   transform-origin: bottom;
 }
 
-#hour {
+#hour_hand {
   width: 1.8%;
   height: 25%;
   top: 25%;
@@ -26,7 +26,7 @@
   opacity: 0.8;
 }
 
-#minute {
+#minute_hand {
   width: 1.6%;
   height: 30%;
   top: 19%;
@@ -34,7 +34,7 @@
   opacity: 0.8;
 }
 
-#second {
+#second_hand {
   width: 1%;
   height: 40%;
   top: 9%;
